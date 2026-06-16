@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+
+    <h1>Luis Carlos Jiménez Rodríguez</h1>
+
+    <button id="modoBtn" aria-label="Cambiar modo oscuro">
+        🌙 Modo Oscuro
+    </button>
+
+    <button id="menuBtn" aria-label="Abrir menú">
+        ☰ Menú
+    </button>
+
+    <nav id="menuNav">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobreMi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+
+            <img src="img/perfil.jpg"
+                alt="Fotografía de Luis Carlos Jiménez Rodríguez">
+
+            <p>
+                Estudiante de Ingeniería del Software con interés en
+                desarrollo web y programación orientada a objetos.
+            </p>
+        </section>
+
+        <section id="sobreMi">
+            <h2>Sobre mí</h2>
+
+            <article>
+                <p>
+                    Actualmente estudio Ingeniería del Software en la
+                    Universidad Técnica Nacional.
+                </p>
+
+                <p>
+                    Me interesa el desarrollo de aplicaciones web,
+                    bases de datos y programación en Java.
+                </p>
+            </article>
+        </section>
+
+        <section id="proyectos">
+
+            <h2>Mis Proyectos</h2>
+
+            <div class="grid-proyectos">
+
+                <article class="tarjeta">
+                    <h3>Sistema de Taller</h3>
+                    <p>
+                        Aplicación Java para control de vehículos,
+                        combustibles y mantenimientos.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Sistema Académico</h3>
+                    <p>
+                        Gestión de cursos, docentes y asignaciones.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Landing Page</h3>
+                    <p>
+                        Desarrollo de sitios web responsivos con HTML,
+                        CSS y JavaScript.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <aside>
+            <h2>Información Adicional</h2>
+            <p>
+                Disponible para prácticas profesionales y proyectos académicos.
+            </p>
+        </aside>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form>
+
+                <label for="nombre">Nombre</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    aria-label="Nombre del usuario">
+
+                <button type="button" id="guardarNombre">
+                    Guardar Nombre
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2026 Luis Carlos Jiménez Rodríguez
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
